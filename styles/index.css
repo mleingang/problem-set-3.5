@@ -29,7 +29,7 @@ body{
 }
 
 .briefing{
-  margin-top: 360px;
+  margin-top: 300px;
 }
 
 h1{
@@ -60,7 +60,7 @@ li{
   font-family: Lato;
 }
 .nav-bar-links{
-  background-color: dimgray;
+  background-color: #32659F;
   height: 50px;
   text-align: center;
   padding: 0;
@@ -87,7 +87,7 @@ table{
 .nav-bar-img{
   width: 100vw;
   /* height: 50%; */
-  height: 300px;
+  height: 250px;
   /* object-fit: fill; */
   left: 0;
 }
@@ -95,7 +95,7 @@ table{
  a:link.nav-bar-blocks, a:visited.nav-bar-blocks{
   text-decoration: none;
   color: black;
-  background-color: dimgray;
+  background-color: #32659F;
   text-align: center;
   display: inline-block;
   padding: 0px;
