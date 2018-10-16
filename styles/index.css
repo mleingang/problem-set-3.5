@@ -17,8 +17,10 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 30px;
   color: white;
+  font-family: Luckiest Guy;
+  font-weight: 50;
 }
 
 .content{
@@ -38,7 +40,7 @@ h1{
 .header h1{
   font-size: 50px;
   font-weight:
-  font-family: Neucha;
+  font-family: Luckiest Guy;
 }
 
 h2{
@@ -67,16 +69,15 @@ li{
   top: 0;
   left: 0;
   width: 100%;
+  height: 60px;
   text-decoration: none;
   opacity: 0.5;
 }
 
 .nav-bar li{
   display: inline-block;
-  padding-left: 20px;
-  font-family: Lato;
-  color: tomato;
-  margin-top: -100px;
+  padding-left: 10px;
+  font-family: Neucha;
 }
 
 table{
@@ -88,6 +89,30 @@ table{
   /* height: 50%; */
   height: 300px;
   /* object-fit: fill; */
-  opacity: 1;
   left: 0;
+}
+
+ a:link.nav-bar-blocks, a:visited.nav-bar-blocks{
+  text-decoration: none;
+  color: black;
+  background-color: dimgray;
+  text-align: center;
+  display: inline-block;
+  padding: 0px;
+  font-size: 24px;
+  font-family: Neucha;
+}
+
+a{
+  text-decoration: none;
+  color: darkgray;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  font-size: 16px;
+  font-family: Lato;
+}
+a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
+  text-decoration: none;
+  color: white;
 }
