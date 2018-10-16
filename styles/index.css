@@ -1,3 +1,5 @@
+<!--All Pages-->
+
 body{
   padding: 0;
 }
@@ -28,19 +30,9 @@ body{
   margin: 200px;
 }
 
-.briefing{
-  margin-top: 300px;
-}
-
 h1{
   font-family: Neucha;
   font-size: 50px;
-}
-
-.header h1{
-  font-size: 50px;
-  font-weight:
-  font-family: Luckiest Guy;
 }
 
 h2{
@@ -59,6 +51,7 @@ li{
   padding-left: 20px;
   font-family: Lato;
 }
+
 .nav-bar-links{
   background-color: #32659F;
   height: 50px;
@@ -80,10 +73,6 @@ li{
   font-family: Neucha;
 }
 
-table{
-  border-color: 2 px red solid;
-}
-
 .nav-bar-img{
   width: 100vw;
   /* height: 50%; */
@@ -99,6 +88,11 @@ img.body{
   padding: 15px;
   height: auto;
   width: 300px;
+}
+
+a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
+  text-decoration: none;
+  color: white;
 }
 
  a:link.nav-bar-blocks, a:visited.nav-bar-blocks{
@@ -122,7 +116,25 @@ a{
   font-size: 16px;
   font-family: Lato;
 }
-a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
-  text-decoration: none;
-  color: white;
+
+<!--Home Page Only-->
+
+.briefing{
+  margin-top: 300px;
+}
+
+.header h1{
+  font-size: 50px;
+  font-weight:
+  font-family: Luckiest Guy;
+}
+
+table{
+  border-color: 2 px red solid;
+}
+
+<!--Good To Know Only-->
+
+h3{
+  font-family: Neucha;
 }
