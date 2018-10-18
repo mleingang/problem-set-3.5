@@ -19,14 +19,14 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   font-family: Luckiest Guy;
   font-weight: 50;
 }
 
 .content{
-  margin-top: 300px;
+  margin-top: 400px;
   margin: 200px;
 }
 
@@ -86,7 +86,7 @@ img.body{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 15px;
-  height: auto;
+  height: 200px;
   width: 300px;
 }
 
@@ -119,18 +119,37 @@ a{
 
 <!--Home Page Only-->
 
-.briefing{
-  margin-top: 400px;
-}
-
 .header h1{
   font-size: 50px;
   font-weight:
   font-family: Luckiest Guy;
 }
 
-table{
-  border-color: 2 px red solid;
+table, tr, th, td{
+  font-weight: bold;
+  border: 2px midnightblue solid;
+  border-collapse: collapse;
+}
+
+td, th{
+  padding: 10px;
+  text-align: center;
+}
+
+thead{
+  background-color: #58abe2;
+  width: auto;
+}
+
+th{
+  font-family: Lato;
+  font-size: 18px;
+  color: black;
+}
+
+td{
+  font-family: Lato;
+  font-size: 12px;
 }
 
 <!--Good To Know Only-->
