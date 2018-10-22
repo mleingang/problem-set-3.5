@@ -41,6 +41,11 @@ h1{
 h2{
   font-family: Luckiest Guy;
 }
+
+h3{
+  font-family: Neucha;
+}
+
 p{
   font-family: Lato;
 }
@@ -50,10 +55,8 @@ ul{
 }
 
 li{
-  display: inline-block;
   padding-left: 20px;
   font-family: Lato;
-  font-weight: bold;
 }
 
 .nav-bar-links{
@@ -70,10 +73,15 @@ li{
   text-decoration: none;
 }
 
-.nav-bar li{
+li.nav-bar{
   display: inline-block;
   padding-left: 10px;
   font-family: Neucha;
+}
+
+li.footer{
+  display: inline-block;
+  padding: 20px;
 }
 
 .nav-bar-img{
@@ -91,6 +99,13 @@ img.body{
   padding: 15px;
   height: auto;
   width: 300px;
+}
+
+#body{
+  height: 200px;
+  width: auto;
+  float: right;
+  padding: 15px;
 }
 
 a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
@@ -153,10 +168,4 @@ th{
 td{
   font-family: Lato;
   font-size: 12px;
-}
-
-<!--Good To Know Only-->
-
-h3{
-  font-family: Neucha;
 }
