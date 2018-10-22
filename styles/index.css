@@ -2,6 +2,7 @@
 
 body{
   padding: 0;
+  background-color: white;
 }
 
 .header{
@@ -20,7 +21,6 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
-  color: white;
   font-family: Luckiest Guy;
   font-weight: 50;
 }
@@ -54,9 +54,8 @@ ul{
   text-align: left;
 }
 
-li{
-  padding-left: 20px;
-  font-family: Lato;
+ol > li{
+
 }
 
 .nav-bar-links{
@@ -71,6 +70,11 @@ li{
   width: 100%;
   height: 60px;
   text-decoration: none;
+}
+
+li{
+  padding-left: 20px;
+  font-family: Lato;
 }
 
 li.nav-bar{
@@ -92,28 +96,50 @@ li.footer{
   left: 0;
 }
 
-img.body{
+#world-cup{
+  height: 200px;
+  width: auto;
   float: right;
-  /* border: 1px solid #ddd; */
+  margin: 15px;
+  border: green solid 2px;
   border-radius: 4px;
-  padding: 15px;
+}
+
+#soccer-field{
+  float: right;
+  border-radius: 4px;
+  border: green solid 2px;
+  margin: 15px;
   height: auto;
   width: 300px;
 }
 
-#body{
-  height: 200px;
-  width: auto;
+#positions{
   float: right;
-  padding: 15px;
+  border: green solid 2px;
+  border-radius: 4px;
+  margin: 15px;
+  height: auto;
+  width: 300px;
 }
 
-a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
+#referee{
+  float: right;
+  border: green solid 2px;
+  border-radius: 4px;
+  margin: 15px;
+  height: 250px;
+  width: auto;
+}
+
+a.nav-bar-blocks:hover, a.nav-bar-blocks:active{
   text-decoration: none;
   color: white;
+  font-family: Neucha;
+  font-size: 24px;
 }
 
- a:link.nav-bar-blocks, a:visited.nav-bar-blocks{
+li a:visited.nav-bar-blocks{
   text-decoration: none;
   color: black;
   background-color: #32659F;
@@ -124,15 +150,18 @@ a:hover.nav-bar-blocks, a:active.nav-bar-blocks{
   font-family: Neucha;
 }
 
-a{
+a.nav-bar-blocks{
   text-decoration: none;
   font-weight: bold;
   color: black;
   text-align: center;
-  display: inline-block;
-  padding: 0;
-  font-size: 16px;
-  font-family: Lato;
+  font-size: 24px;
+  font-family: Neucha;
+}
+
+a{
+  font-weight: bold;
+  color: black;
 }
 
 <!--Home Page Only-->
