@@ -1,4 +1,7 @@
 <!--All Pages-->
+*{
+  color: black;
+}
 
 body{
   padding: 0;
@@ -77,13 +80,13 @@ li{
   font-family: Lato;
 }
 
-li.nav-bar{
+.nav-bar{
   display: inline-block;
   padding-left: 10px;
   font-family: Neucha;
 }
 
-li.footer{
+.footer{
   display: inline-block;
   padding: 20px;
 }
@@ -135,25 +138,18 @@ li.footer{
   width: auto;
 }
 
-a.nav-bar-blocks:hover, a.nav-bar-blocks:active{
+.nav-bar-blocks:active{
+  color:white;
+}
+
+.nav-bar-blocks:hover, .nav-bar-blocks:active{
   text-decoration: none;
   color: white;
   font-family: Neucha;
   font-size: 24px;
 }
 
-li a:visited.nav-bar-blocks{
-  text-decoration: none;
-  color: black;
-  background-color: #32659F;
-  text-align: center;
-  display: inline-block;
-  padding: 0px;
-  font-size: 24px;
-  font-family: Neucha;
-}
-
-a.nav-bar-blocks{
+.nav-bar-blocks{
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -164,6 +160,25 @@ a.nav-bar-blocks{
 
 a{
   font-weight: bold;
+  /* color: black; */
+  font-size: 14px;
+}
+
+a[href="http://www.theifab.com/laws"]{
+  color: #32659F;
+}
+
+a[href="https://www.ussoccer.com/referees"]{
+  color: #32659F;
+}
+
+a[href="https://www.fifa.com/aboutfifa/worldcup/index.html"]{
+  color: #32659F;
+}
+
+footer a{
+  font-style: bold;
+  text-decoration: none;
   color: black;
 }
 
@@ -200,4 +215,8 @@ th{
 td{
   font-family: Lato;
   font-size: 12px;
+}
+
+tfoot td:last-child{
+  font-style: italic;
 }
