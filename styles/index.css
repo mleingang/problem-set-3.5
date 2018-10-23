@@ -4,13 +4,11 @@
 }
 
 body{
-  padding: 0;
   background-color: white;
 }
 
 .header{
   width: 100%;
-  margin: 0;
   z-index: 10;
   position: relative;
   font-size: 20px;
@@ -23,9 +21,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
   font-family: Luckiest Guy;
-  font-weight: 50;
 }
 
 .content{
@@ -103,7 +99,7 @@ li{
   height: 200px;
   width: auto;
   float: right;
-  margin: 15px;
+  margin-left: : 15px;
   border: green solid 2px;
   border-radius: 4px;
 }
@@ -133,7 +129,8 @@ li{
   border: green solid 2px;
   border-radius: 4px;
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   height: 300px;
   width: auto;
 }
@@ -145,7 +142,6 @@ li{
 .nav-bar-blocks:hover, .nav-bar-blocks:active{
   text-decoration: none;
   color: white;
-  font-family: Neucha;
   font-size: 24px;
 }
 
@@ -160,7 +156,6 @@ li{
 
 a{
   font-weight: bold;
-  /* color: black; */
   font-size: 14px;
 }
 
